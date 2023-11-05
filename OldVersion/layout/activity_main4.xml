@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--방금 기기에서 등록된 의류에 등록-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <Button
+        android:id="@+id/main4_button1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFD966"
+        android:text="@string/main4_button1"
+        android:textColor="#7030A0"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/main4_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main4_button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#7030A0"
+        android:text="@string/main4_button2"
+        android:textColor="#FFD966"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main4_button1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
